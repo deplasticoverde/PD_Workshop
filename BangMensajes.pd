@@ -1,0 +1,80 @@
+#N canvas 377 25 579 400 12;
+#X obj 231 63 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1
+-1;
+#X obj 231 164 print;
+#X msg 181 113 A;
+#X msg 231 113 B;
+#X msg 279 113 C;
+#X text 187 82 1;
+#X text 219 93 2;
+#X text 258 80 3;
+#X obj 232 212 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1
+-1;
+#X obj 232 315 print;
+#X msg 178 269 A;
+#X msg 232 271 B;
+#X msg 283 271 C;
+#X text 188 231 1;
+#X text 216 246 3;
+#X text 277 245 2;
+#X msg 45 181 Hola Mundo;
+#X obj 45 204 print;
+#X obj 45 160 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1
+-1;
+#X obj 73 89 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1 -1
+;
+#X obj 73 108 print;
+#X obj 47 256 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1
+-1;
+#X floatatom 47 276 5 0 127 0 - - -;
+#X obj 47 298 print;
+#X obj 44 89 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1 -1
+;
+#X obj 44 109 bng 15 250 50 0 empty empty empty 17 7 0 10 -257985 -1
+-1;
+#X obj 385 62 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1
+-1;
+#X obj 438 173 print;
+#X msg 384 127 A;
+#X msg 438 129 B;
+#X msg 489 129 C;
+#X obj 385 88 trigger bang bang bang;
+#X obj 403 211 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1
+-1;
+#X obj 421 318 print;
+#X msg 367 272 A;
+#X msg 420 267 B;
+#X msg 471 267 C;
+#X obj 403 237 t b b b;
+#X connect 0 0 2 0;
+#X connect 0 0 3 0;
+#X connect 0 0 4 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
+#X connect 4 0 1 0;
+#X connect 8 0 10 0;
+#X connect 8 0 12 0;
+#X connect 8 0 11 0;
+#X connect 10 0 9 0;
+#X connect 11 0 9 0;
+#X connect 12 0 9 0;
+#X connect 16 0 17 0;
+#X connect 18 0 16 0;
+#X connect 19 0 20 0;
+#X connect 21 0 22 0;
+#X connect 22 0 23 0;
+#X connect 24 0 25 0;
+#X connect 26 0 31 0;
+#X connect 28 0 27 0;
+#X connect 29 0 27 0;
+#X connect 30 0 27 0;
+#X connect 31 0 29 0;
+#X connect 31 1 30 0;
+#X connect 31 2 28 0;
+#X connect 32 0 37 0;
+#X connect 34 0 33 0;
+#X connect 35 0 33 0;
+#X connect 36 0 33 0;
+#X connect 37 0 34 0;
+#X connect 37 1 35 0;
+#X connect 37 2 36 0;
