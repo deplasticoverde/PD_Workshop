@@ -46,6 +46,7 @@
 #X msg 420 267 B;
 #X msg 471 267 C;
 #X obj 403 237 t b b b;
+#X text 43 33 Bang = cmd+5;
 #X connect 0 0 2 0;
 #X connect 0 0 3 0;
 #X connect 0 0 4 0;
