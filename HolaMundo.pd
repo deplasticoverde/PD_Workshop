@@ -1,6 +1,6 @@
 #N canvas 587 50 248 189 12;
 #X msg 92 57 Hola Mundo;
 #X obj 92 90 print;
-#X text 14 148 cmd+1 \, objeto;
-#X text 128 149 cmd+2 mensaje;
+#X text 14 148 Objeto = cmd+1;
+#X text 128 149 Mensaje = cmd+2;
 #X connect 0 0 1 0;
