@@ -1,0 +1,18 @@
+#N canvas 587 50 438 327 12;
+#X obj 182 220 print;
+#X msg 182 168 0 Nube;
+#X obj 193 129 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1
+-1;
+#X msg 90 82 set 0 Mundo;
+#X msg 182 82 set 0 Perro;
+#X msg 280 82 set 0 Nube;
+#X msg 182 193 Hola \$2;
+#X connect 1 0 6 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
+#X connect 3 0 2 0;
+#X connect 4 0 1 0;
+#X connect 4 0 2 0;
+#X connect 5 0 1 0;
+#X connect 5 0 2 0;
+#X connect 6 0 0 0;
